@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MorseEnqInf</class>
+ <widget class="QMainWindow" name="MorseEnqInf">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>720</width>
+    <height>350</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Про азбуку Морзе</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>680</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+    <property name="plainText">
+     <string>Азбука Морзе является неравномерным кодом, основанным на принципе что более употребительные в английском
+языке буквы, кодируются более короткими и простыми сочетаниями точек и тире, что делает освоение азбуки Морзе
+проще, а передачу — быстрее. Этот принцип Самуэлем Морзе был подсмотрен в типографии, где он подсчитал количество
+типографских литер, используемых наборщиками в работе и тем самым определил, какие буквы наиболее часто
+используются в текстах.
+Все буквы в азбуке содержат от 1 до 4 элементов, за исключением «Э», состоящей из пяти элементов (· · — · ·). Все
+цифры содержат по 5 элементов. Так как цифры являются довольно длинными, существует их сокращенный вариант, когда
+серия тире в символе заменяется одним тире, но при этом надо учитывать что часть цифр превращаются в буквы и они
+не должны быть перепутаны при декодировании.</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
