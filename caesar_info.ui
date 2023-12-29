@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CaesarEnqInf</class>
+ <widget class="QMainWindow" name="CaesarEnqInf">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>720</width>
+    <height>350</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>10</pointsize>
+    <weight>75</weight>
+    <italic>false</italic>
+    <bold>true</bold>
+    <underline>false</underline>
+    <strikeout>false</strikeout>
+    <kerning>true</kerning>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Про шифр Цезаря</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPlainTextEdit" name="caeser_enq_inf">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>15</y>
+      <width>680</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+    <property name="plainText">
+     <string>Шифр Цезаря, также известный как шифр сдвига или код Цезаря — разновидность шифра подстановки, в котором
+каждый символ в открытом тексте заменяется символом, находящимся на некотором постоянном числе позиций левее или правее
+него в алфавите. Шифр был назван в честь римского полководца Гая Юлия Цезаря, использовавшего его для секретной
+переписки со своими военачальниками. Как и все моноалфавитные шифры, шифр Цезаря легко взламывается и не имеет почти
+никакого применения на практике. Тем не менее, он считается одним из самых простых и наиболее широко известных методов
+шифрования.</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
