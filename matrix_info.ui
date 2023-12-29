@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MatrixEnqInf</class>
+ <widget class="QMainWindow" name="MatrixEnqInf">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>720</width>
+    <height>350</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Про матричное шифрование</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPlainTextEdit" name="matrix_enq_inf">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>680</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+    <property name="plainText">
+     <string>Принцип работы матричного способа шифрования заключается в том, что исходная информация разбивается на
+блоки определенного размера. Каждый блок представляется в виде матрицы, где каждый элемент является числом или символом.
+Затем, с помощью ключа шифрования, производятся математические операции с этими матрицами, в результате чего получается
+зашифрованная матрица.
+
+Дешифрование осуществляется в обратной последовательности: зашифрованная матрица умножается на ключ дешифрования и снова
+приводится к исходному виду. Таким образом, только при наличии правильного ключа можно получить доступ к исходным
+данным. Матричный способ шифрования широко применяется в системах защиты информации, а также в передаче данных по
+открытым каналам связи.</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
