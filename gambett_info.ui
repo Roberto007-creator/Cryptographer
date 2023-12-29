@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GambettEnqInf</class>
+ <widget class="QMainWindow" name="GambettEnqInf">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>720</width>
+    <height>350</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>10</pointsize>
+    <weight>75</weight>
+    <italic>false</italic>
+    <bold>true</bold>
+    <underline>false</underline>
+    <strikeout>false</strikeout>
+    <kerning>true</kerning>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Про шифр Гамбетта</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPlainTextEdit" name="caeser_enq_inf">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>15</y>
+      <width>680</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+    <property name="plainText">
+     <string>Леон Гамбетта – премьер Французской республики в XIX веке. Для конспиративной переписки он предложил
+заменить буквы числами и складывать их с числами ключа по модулю, равному длине используемого алфавита.
+Сложение по модулю означает, что после сложения чисел нужно от результата взять остаток от деления на длину алфавита.
+Тогда полученным значениям можно будет снова сопоставить буквы. Для дешифровки нужно просто из чисел зашифрованного
+сообщения вычесть числа ключа, причем если получается отрицательное число, то к нему нужно прибавить длину алфавита.
+</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
