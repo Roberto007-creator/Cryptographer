@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>605</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>750</width>
+    <height>310</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPlainTextEdit" name="OutputTextEdit">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>320</y>
+      <width>760</width>
+      <height>220</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="plainText">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="InputTextEdit">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>90</y>
+      <width>760</width>
+      <height>220</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="plainText">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_1">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>60</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Введите текст:</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>182</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Матричное шифрование</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Шифр Виженера</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Шифр Гамбетта</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Шифр Цезаря</string>
+     </property>
+    </item>
+     <item>
+     <property name="text">
+      <string>Азбука Морзе</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="InformationBtn">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>20</y>
+      <width>180</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Информация о шифровании</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="EncryptBtn">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>20</y>
+      <width>100</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Зашифровать</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SettingsBtn">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>20</y>
+      <width>90</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Настройки</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="CopypastBtn">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>550</y>
+      <width>150</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Скопировать в буфер</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="DecryptBtn">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>20</y>
+      <width>100</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Расшифровать</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
